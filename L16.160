@@ -1,0 +1,2 @@
+t=2; v0=20; g=9.80 ; y=v0*t-0.5*g*t**2;
+print ('Pēc %.g sekundem bumba bus %.2f metru augstuma \n' % (t,y))
