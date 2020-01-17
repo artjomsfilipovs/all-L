@@ -1,0 +1,22 @@
+  /* 35.c
+Programmas autors: A. Filipovs
+Prog.veidota 2020 gada 5 janvari
+
+Masiva izveidosana , aizpildisana un nolasisana */
+
+#include <stdio.h>
+#include <math.h>
+
+ int main()
+ {
+ float mas[101]; // izveido masivu ar 10 elementiem
+ int i;
+
+ for(i=0; i<101; i++) // masiva elementu inicialiczaija
+ {
+ mas[i] = sqrt(i); // tekosais elements tiek noteikts ka x*x
+ }
+ /* paraadit "masiva" saturu */
+ for (i=0; i<101; i++)
+ printf ("%d %f\n", i, mas[i]);
+ }
